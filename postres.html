@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <title>Postres</title>
+        <!--Boostrap CSS-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Archivo CSS-->
+        <link rel="stylesheet" href="styles.css">
+        <!--Google Fonts-->    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        <!--Icono de la tab de internet-->
+        <link rel="shortcut icon" href="https://www.nicepng.com/png/detail/903-9037990_png-file-svg-tenedor-dibujo-jpg.png">
+    </head>   
+    
+    <body>
+        <!--JQuery Bootstrap-->
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+         <!--Bootstrap JavaScript-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+        
+            <!--Encabezado de la Página-->    
+            <header>
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <!--Header de la barra de navegación-->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">
+                                <i class="glyphicon glyphicon-cutlery"></i>
+                            </a>
+                        </div>
+
+                <!-- Otras opciones de la barra de navegación -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li class="dropdown">   <!--Desplegable-->
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menús <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="menu-normal.html">Normal</a></li>
+                        <li><a href="menu-infantil.html">Infantil</a></li>
+                        <li><a href="menu-vegano.html">Vegano</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="postres.html">Postres</a></li>
+                        <li><a href="bebidas.html">Bebidas</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="ej. Menú Cachopo">
+                    </div>
+                    <button type="submit" class="btn btn-default">Buscar</button>
+                  </form>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="reservar.html">Reservar</a></li>
+                    <li><a href="reseñas.html">Reseñas</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                  </ul>
+                </div><!-- navbar-collapse -->
+              </div><!-- container-fluid -->
+             </nav>
+            </header>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12"><h1 style="color: white; font-family: 'Dancing Script', cursive; text-align:center;">Nuestros postres</h1></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-8 col-md-8 col-lg-8">
+                        <h3 style="color:white; font-family: 'Crimson Text', serif; text-align:center; color:#00ADB5">HELADO</h3>
+                        <h4 style="color: white; font-family: 'Dancing Script', cursive; text-align:center">de chocolate, vainilla, fresa o menta a elegir</h4>
+                        <h4 style="color: white; font-family: 'Dancing Script', cursive; text-align:center">7,0€</h4>
+                    </div>
+
+                    <div class="col-xs-4 col-md-4 col-lg-4">
+                        <img src="helado.jpg" width="250px" style="border-radius: 15px;" >
+                    </div>
+                </div>
+                    
+                <div class="row">
+                    <div class="col-xs-8 col-md-8 col-lg-8">
+                        <h3 style="color:white; font-family: 'Crimson Text', serif; text-align:center; color:#00ADB5">TARTA DE QUESO CASERA</h3>
+                        <h4 style="color: white; font-family: 'Dancing Script', cursive; text-align:center">receta tradicional de la tarta de queso</h4>
+                        <h4 style="color: white; font-family: 'Dancing Script', cursive; text-align:center">8,0€</h4>
+                    </div>
+                    <br>
+                    <div class="col-xs-4 col-md-4 col-lg-4">
+                        <img src="tarta-de-queso.jpg" width="250px" style="border-radius: 15px;" >
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-8 col-md-8 col-lg-8">
+                        <h3 style="color:white; font-family: 'Crimson Text', serif; text-align:center; color:#00ADB5">FRIXUELOS</h3>
+                        <h4 style="color: white; font-family: 'Dancing Script', cursive; text-align:center">receta típica asturiana de los famosos frixuelos</h4>
+                        <h4 style="color: white; font-family: 'Dancing Script', cursive; text-align:center">5,0€</h4>
+                    </div>
+                    <br>
+                    <div class="col-xs-4 col-md-4 col-lg-4">
+                        <img src="frixuelos.jpg" width="250px" style="border-radius: 15px;" >
+                    </div>
+                </div> 
+
+                <div class="row">
+                    <div class="col-xs-8 col-md-8 col-lg-8">
+                        <h3 style="color:white; font-family: 'Crimson Text', serif; text-align:center; color:#00ADB5">TARTA DE FRESA</h3>
+                        <h4 style="color: white; font-family: 'Dancing Script', cursive; text-align:center">con caramelo y toques de azúcar</h4>
+                        <h4 style="color: white; font-family: 'Dancing Script', cursive; text-align:center">9,0€</h4>
+                    </div>
+                    <br>
+                    <div class="col-xs-4 col-md-4 col-lg-4">
+                        <img src="tarta-de-fresa.jpg" width="250px" style="border-radius: 15px;" >
+                    </div>
+                </div> 
+
+            </div>
+
+    </body>
+</html>
